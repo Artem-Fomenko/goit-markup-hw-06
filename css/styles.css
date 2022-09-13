@@ -163,6 +163,7 @@ justify-content: space-between;
     margin-right: auto;
     margin-left: auto; 
     padding: 10px 32px;
+    border-radius: 4px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover, .hero-button:focus{
@@ -628,6 +629,10 @@ fill: var(--withe-color);
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    justify-content: center;
 }
 .link-contact {
     color: var(--hover-color);
